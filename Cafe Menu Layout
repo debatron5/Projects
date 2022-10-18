@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <header>
+        <h1>Deb's Cafe</h1>
+        <img src="https://www.svgrepo.com/show/132681/cafe.svg" alt="cafe icon" width=50px>
+      </header>
+      <hr>
+      <main>
+        <section>
+          <h2>Coffee/Espresso</h2>
+                      <hr class="bottom-line">
+          <br>
+          <img src="https://www.svgrepo.com/show/131799/coffee.svg" alt="coffee icon" width=30px>
+            <p class="flavor"><b>Americano</p>
+     <dd class="description">
+              </dd>  
+              
+   <p class="price">3.75</p>       
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p>
+            <dd class="description">
+              <p></p></dd>  
+            <p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+            <hr class="bottom-line">
+          </article>
+        </section>
+        <section>
+          <h2>Tea</h2>
+          <img src="https://www.svgrepo.com/show/31712/tea.svg" alt="tea icon" width=50px>
+          <p class="flavor">Morrocan Mint</p><p class="price">3.00</p>
+          <p class="flavor">Earl Grey</p><p class="price">2.00</p>
+          <p class="flavor">Chamomile</p><p class="price">2.50</p>
+          <p class="flavor">Earl Grey</p><p class="price">2.50</p>
+          <hr class="bottom-line">
+             </section>
+          <h2>Desserts</h2>
+          <img src="https://www.svgrepo.com/show/34854/cinnamon-roll.svg" alt="pie icon" width=50px/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FmZXxlbnwwfHwwfHw%3D&w=1000&q=80);
+ font-family: 'Open Sans', sans-serif;
+  padding: 50px;
+  background: url(https://images.unsplash.com/photo-1482350325005-eda5e677279b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.font-Patua {
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: serif;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.established {
+  font-style: serif;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 50vw;
+  background-color: #DEB887;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  max-width: 800px;
+  font-size: 15x;
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+#bg {
+  position: center; 
+  top: 0; 
+  left: 0; 
+	min-width: 100%;
+  min-height: 100%;
+}
+
